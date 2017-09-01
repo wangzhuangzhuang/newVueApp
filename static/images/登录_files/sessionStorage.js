@@ -1,0 +1,1 @@
+var sessionS=function(){function t(){}return t.objs=window.sessionStorage,t.setItemFns=function(t,e){this.objs.setItem(t,e)},t.getItemFns=function(t){return this.objs.getItem(t)||this.objs.setItem(t,JSON.stringify({})),this.objs.getItem(t)},t.removeItemFns=function(t){return this.objs.removeItem(t),111},t}();
